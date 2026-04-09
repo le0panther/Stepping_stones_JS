@@ -24,3 +24,7 @@ let gender ;
 console.log(typeof gender)
 console.log(gender)
 
+let Baby_name=""
+console.log(typeof Baby_name)
+console.log(Baby_name)
+
