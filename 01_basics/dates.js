@@ -18,3 +18,5 @@ console.log(`The Time in seconds is ${Math.floor(timestamp/1000)}`)     //now th
 //This timestamp concept is widely used in website where booking takes place like E-commerce and Hotel management , by comparing the timestamp they give the preference to the one with the less timestamp
 
 //CTRL + SPACE dabane se recommend kar deta hai VS code ki kya-kya mehtod or properties hum apply kar sakte hai 
+
+//Also agar aap cahte hai ki jo data ka style hai vo aap decide kare ki kon pehle or kese aayega toh plz use .toLocaleString as it helps you get our 'Custom date Output'
