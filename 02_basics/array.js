@@ -51,5 +51,19 @@
 // console.log(different_array)
 
 
+                                                         //INTERVIEW QUESTIONS on slice and splice
+
+let new_array=[0,1,2,3,4,5,6,7,8,9]
+console.log("A",new_array)
+console.log(new_array.slice(0,3))        // this proves that slice is immutable it brings or prints out a copy of the required array
+console.log(new_array)
+
+console.log('B',new_array)
+console.log(new_array.splice(0,3))      //this proves that splic is mutable it brings the original elements out of the array
+console.log(new_array)
+
+
+
+
 
 
