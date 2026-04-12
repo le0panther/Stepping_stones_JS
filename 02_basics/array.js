@@ -28,19 +28,28 @@
 
 
 
-let some_array =["Hello", "World","Today","is","a","nice","Day"]
-console.log(some_array)
+// let some_array =["Hello", "World","Today","is","a","nice","Day"]
+// console.log(some_array)
 
-// let another_array=some_array.join()     //join converts a given array into an string with comma as a default separator 
+// // let another_array=some_array.join()     //join converts a given array into an string with comma as a default separator and puts it into a new variable
+// // console.log(another_array)
+// // console.log(typeof another_array)
+
+
+// let another_array=some_array.join("-")     
+// // you can even specify the separator wich you want to use in order to separate the values of a given array 
 // console.log(another_array)
 // console.log(typeof another_array)
 
 
-let another_array=some_array.join("-")     
-// you can even specify the separator wich you want to use in order to separate the values of a given array 
-console.log(another_array)
 
-console.log(typeof another_array)
-let different_array=another_array.split('-')
-console.log(typeof different_array)
-console.log(different_array)
+// let different_array=another_array.split('-')
+// // split on the other hand is quite opposite of the join , it converts a array back to string and put them into a new variable as for few methods of array the array acts as immutable
+
+// // The spilt takes place with and without a parameter if no parameter given the entire string is converted into a single element fo array and if the parameter is given the string is then split based on how many times the parameter is present in the string 
+// console.log(typeof different_array)
+// console.log(different_array)
+
+
+
+
