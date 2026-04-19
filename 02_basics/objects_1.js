@@ -26,3 +26,8 @@ console.log(object_1[mysum])
 
 console.log(object_1);
 
+object_1.name="Leo Panther"
+Object.freeze(object_1)
+object_1.name="Axel Blazze"
+console.log(object_1)
+
