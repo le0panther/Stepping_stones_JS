@@ -1,4 +1,3 @@
-
 let mysum=Symbol("result")
 const object_1={
     name:"Abhishek Pant",
@@ -34,7 +33,8 @@ console.log(object_1);
 
 //Adding a funtion in the existing object and assing value to it at the same time using dot notation but in order to do it i meed to comment out "object.freeze"
 object_1.message= function () {
-    console.log("Hello Reader")
+    console.log(`Hello ${object_1["name"]}`)     
+    //using string interpolation to print the value
 }
 
 console.log(object_1.message)       
