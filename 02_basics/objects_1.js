@@ -25,11 +25,11 @@ console.log(object_1["name"])
 console.log(object_1[mysum])
 console.log(object_1);
 
-object_1.name="Leo Panther"
-Object.freeze(object_1)     
-// object have been freezed and now its can't be modified but nested object inside the freezed object can still be modified 
-object_1.name="Axel Blazze"
-console.log(object_1)
+// object_1.name="Leo Panther"
+// Object.freeze(object_1)     
+// // object have been freezed and now its can't be modified but nested object inside the freezed object can still be modified 
+// object_1.name="Axel Blazze"
+// console.log(object_1)
 
 
 //Adding a funtion in the existing object and assing value to it at the same time using dot notation but in order to do it i meed to comment out "object.freeze"
@@ -37,5 +37,8 @@ object_1.message= function () {
     console.log("Hello Reader")
 }
 
-console.log(object_1)
+console.log(object_1.message)       
+//returns a reference 'type' , bata raha hai ki funtion anonymous hai 
+console.log(object_1.message())         
+//printing the actual data inside the function
 
