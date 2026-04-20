@@ -27,7 +27,12 @@ console.log(object_1[mysum])
 console.log(object_1);
 
 object_1.name="Leo Panther"
-Object.freeze(object_1)
+Object.freeze(object_1)     
+// object have been freezed and now its can't be modified but nested object inside the freezed object can still be modified 
 object_1.name="Axel Blazze"
 console.log(object_1)
+
+
+//object ke andar may abhi function add nahi kiya hu or merko abhi funtions greetings ke bare may nahi malum
+
 
