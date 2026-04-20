@@ -23,7 +23,6 @@ console.log(object_1["name"])
 //accesing a symbol 
 
 console.log(object_1[mysum])
-
 console.log(object_1);
 
 object_1.name="Leo Panther"
@@ -33,6 +32,10 @@ object_1.name="Axel Blazze"
 console.log(object_1)
 
 
-//object ke andar may abhi function add nahi kiya hu or merko abhi funtions greetings ke bare may nahi malum
+//Adding a funtion in the existing object and assing value to it at the same time using dot notation but in order to do it i meed to comment out "object.freeze"
+object_1.message= function () {
+    console.log("Hello Reader")
+}
 
+console.log(object_1)
 
