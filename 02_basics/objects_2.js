@@ -12,6 +12,7 @@ object_1.Age=20
 //console.log(object_1)
 //console.log(Object.keys(object_1))      //Prints the keys of the object "The return type is an array"
 //console.log(Object.values(object_1))    //Prints the values of the objects "The return type is an array"
+console.log(Object.entries(object_1))
 
 //Entering an another object inside the object_1 and and accessing it's values
 
@@ -38,10 +39,8 @@ const obj_3={3:"C",4:"D"}
 
 //mehtod 2 for doing the same (Widely used in the Modern web Development)
 const newObject={...obj_2,...obj_3}     
-//this method combines them together but the reading is not easy here and creates a new object 
-console.log(newObject)
+//this method combines them together  and creates a new object 
 
-//Reading the object created in the method 2 is quite difficult so making it a bit simpler
 
 
 
