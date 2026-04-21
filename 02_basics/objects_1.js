@@ -1,3 +1,4 @@
+//Here we are creating objects with literals 
 let mysum=Symbol("result")
 const object_1={
     name:"Abhishek Pant",
