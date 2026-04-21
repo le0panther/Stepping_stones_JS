@@ -18,3 +18,8 @@ console.log(name);      //now instead of writing "object_1.name" i can simply wr
 
 const {name:n}=object_1
 console.log(n);         //Output will be same no matter which method the user approach with 
+
+
+
+
+//A Rough idea about API
