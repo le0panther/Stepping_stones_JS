@@ -21,3 +21,18 @@ const val=add(90,10)
 console.log(val)        
 //This line of code will result in giving us undefined as the console.log dont return the value , but when we use "return" in place of console.lod inside the funtion it will result in printing the vlaue 
 
+//for the moment when we dont know how many arguments we are going to receive and we are going to perform operations on them 
+
+// This is the moment when the 'spread operator ...' comes in hand 
+
+function calculateCartPrice(num1){              
+//This funtion is excellent to handle the once argument but it fails when we dont know how many arguments we are going to receive for that moment we use spread operator 
+        return num1
+
+}
+
+function calculateCartPrice(... num1){
+    return num1     //return's a array and now we can use it however we want 
+}
+
+console.log(calculateCartPrice(400,100,200))
