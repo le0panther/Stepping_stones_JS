@@ -3,6 +3,7 @@
 // funtion "AnyName"('parameters',p1,p2,p3 ------){
     
 // }
+//you can even set a default value or so called the default parameters by '(p1=0)' 
 
 function add (p1,p2){        //eg of a funtion 
     const num1=p1
