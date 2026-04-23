@@ -25,3 +25,16 @@ console.log(f)
 //Interview 
 
 // A closure is when we are trying to acess a variaable from a outer funtion even when the outer funtion had finished executing 
+
+//Also funtions follow hoisting meaning we can call a funtion even before the line of funtion declaration code have not reached 
+
+sum ()
+function sum(){
+    console.log(4)
+}
+
+
+// The concept of hoisting is but quite diffirent for let and const , we can all them but cant use their values till the line of code reaches them as they are kept in the "Temporal dead Zone"
+
+console.log(score); // ReferenceError: Cannot access 'score' before initialization
+let score = 100;
