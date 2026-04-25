@@ -41,3 +41,5 @@ const arrow= ()=>{
 console.log(arrow())
     //here an empty object will be received as the output  because  the arrow funtion refers to the global scope of the  node.js enviroment which is empty 
 
+//Basic syntax of arrow funtion
+// ()=>{}
