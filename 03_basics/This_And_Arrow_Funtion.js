@@ -26,3 +26,18 @@ console.log(this)
 
 
 //*********************************this with the funtion or inside the funtion needs to be learned a bit more as i am not quite sure about it  */
+
+const fun=function (){
+    console.log(this)
+}
+console.log(fun())//a huge amount of data will be received related to the funtion 
+//when this is used inside a funtion it refers to its funtion scopte and returns the data on the scope 
+
+//Arrow funtion syntax 
+
+const arrow= ()=>{
+    console.log(this)       
+}
+console.log(arrow())
+    //here an empty object will be received as the output  because  the arrow funtion refers to the global scope of the  node.js enviroment which is empty 
+
