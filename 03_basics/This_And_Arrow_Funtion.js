@@ -43,3 +43,13 @@ console.log(arrow())
 
 //Basic syntax of arrow funtion
 // ()=>{}
+
+// const sum=(num1,num2)=>{            //This is called explicit conversion 
+//     return num1+num2
+// }
+// console.log(sum(12,20))
+
+const sum=(num1,num2)=> (num1+num2)     //This is implicit conversion 
+//here we replace the curly braces by parathesis and we don't need to write return 
+//also this is only done for a single line of code 
+console.log(sum(12,20))
