@@ -19,3 +19,10 @@ console.log(this)
 //here we will be receving an empty object as their is no global scope object inside the node.js enviroment 
 
 //But in browser their will be windows object and hence it will not be empty , also this window object is reason why we are able to perform various events on the browser .
+
+//The above all are the prerequisites for the arrow funtion 
+
+
+
+
+//*********************************this with the funtion or inside the funtion needs to be learned a bit more as i am not quite sure about it  */
