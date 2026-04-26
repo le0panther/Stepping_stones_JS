@@ -9,20 +9,24 @@
 // (here we write the funtion defination )
 // (Another paranthesis is their which is used for its immediate execution )
 
-// function message(){
-//     console.log("hello user ")
-// }
+function message(){
+    console.log("hello user ")
+}
 //The above function in IIFE form 
 
-(function message(){
+(function message(){        //Its a named iife since it's funtion have a name
     console.log("hello user ")
-})()
+})();
 
-
-// (()=>{
-//     console.log("hello bro")
-// })()  
+//When a invoked funtion is invoke it doesn't know where to end its context and hence the code becomes unpredictavle when their are two iife back to back and in order to end the invoke it is better to give a semicolon at the end of it ;
+( ()=>{
+    console.log("hello bro")
+})();
 //Immediately executing a arrow funtion without the use of variables
 
+//Passing an argument to an iife
+( (name)=>{
+    console.log(`Hello ,${name}`)
+})("Abhishek");
 
-// message()
+ message()
