@@ -40,3 +40,6 @@ switch(balance){
         console.log("Value didn't match ")
         break;
 }
+
+
+// Handling truthy and flasy values 
