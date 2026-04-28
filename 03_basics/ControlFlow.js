@@ -12,7 +12,7 @@
 
 //shorthand notation 
 
-let balance =1000
+let balance =100
 if(balance<10000) console.log("Its an example of ShortHand Notaion ");  //it ends with a semicolon and for single line code 
 
 
