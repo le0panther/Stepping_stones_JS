@@ -35,4 +35,8 @@ switch(balance){
     case 1000:
         console.log("Switch-Case")
         break;
+    
+    default:
+        console.log("Value didn't match ")
+        break;
 }
