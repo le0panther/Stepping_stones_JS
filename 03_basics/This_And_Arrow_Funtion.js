@@ -53,3 +53,5 @@ const sum=(num1,num2)=> (num1+num2)     //This is implicit conversion
 //here we replace the curly braces by parathesis and we don't need to write return 
 //also this is only done for a single line of code 
 console.log(sum(12,20))
+
+//arrow funtion is also used in the case when we need to access the global scope with this and not the funtion scope s
