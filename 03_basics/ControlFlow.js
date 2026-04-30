@@ -63,3 +63,28 @@ if(bal){
 //falsy 
 // false , 0 , -0 , null , undefined , NaN , BigInt 0n , ""   
 //  except this all are truthy values eg:- "0","false"," ",[],{},funtion(){}
+
+
+//operators 
+// && ,||,!
+
+//Nullish Coalescing Operator (??):null undefined 
+//agar value null / undefined  ata hai toh dusra value assign kar lo insted of null 
+
+let value;
+value=6 ?? 7         //6
+value=null ?? 7     //7 will be assigned 
+value=undefined ?? 7 //7 will be assigned 
+value= null ?? 20 ?? 30 // 20 will be assigned since it is coming first 
+
+console.log(value)
+
+
+
+//ternary operator 
+
+//condition ? true :false
+
+3>5 ? console.log("true"):console.log("false")
+
+
