@@ -12,6 +12,8 @@
 
 //shorthand notation 
 
+
+
 let balance =1000
 if(balance<10000) console.log("Its an example of ShortHand Notaion ");  //it ends with a semicolon and for single line code 
 
@@ -43,3 +45,20 @@ switch(balance){
 
 
 // Handling truthy and flasy values 
+
+//when we give a varible(it can be string , array, number and etc) as a condition and the  condition results as true its is called a truthy 
+//vice-versa for falsy
+
+//let bal=20      //truthy 
+let bal=""      //falsy 
+
+if(bal){
+    console.log("Its truthy")
+}else{
+    console.log("Its falsy ")
+}
+
+//all the truthy and falsy values 
+
+//falsy 
+// false , 0 , -0 , null , undefined , NaN , BigInt 0n , ""    except this all are truthy values 
