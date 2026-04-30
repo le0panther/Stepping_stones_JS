@@ -61,4 +61,5 @@ if(bal){
 //all the truthy and falsy values 
 
 //falsy 
-// false , 0 , -0 , null , undefined , NaN , BigInt 0n , ""    except this all are truthy values 
+// false , 0 , -0 , null , undefined , NaN , BigInt 0n , ""   
+//  except this all are truthy values eg:- "0","false"," ",[],{},funtion(){}
