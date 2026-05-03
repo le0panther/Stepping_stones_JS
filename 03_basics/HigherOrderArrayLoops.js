@@ -17,3 +17,20 @@ for (const str of string) {
 }
 
 //jada kuch nahi for of is used to print the entire value without the need for declaration of any variable and increment operator in the block of the  for 
+//hence forof can be used in order to iterate through array 
+
+
+//Map
+
+//maps thoda padh lena kyuki usko abhi may skip kar araha hu 
+
+// const map=new Map
+// map.
+
+
+
+
+//for in 
+
+//forin   is quite like for of but it is made for iterating through objects 
+
