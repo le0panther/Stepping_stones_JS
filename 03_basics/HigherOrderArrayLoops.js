@@ -70,11 +70,16 @@ for (const key in obj1) {
 //     console.log(num*0)
 // })
 
-function newMethod(val){
-    console.log(val*0)
-}
+// function newMethod(val){
+//     console.log(val)
+// }
 
-array.forEach(newMethod)        //Another Way  , funtion ka reference dena hai ( matlab uska naam ),usko waha execute nahi kar dena hai (matlab call mat kar dena )
+//array.forEach(newMethod)        //Another Way  , funtion ka reference dena hai ( matlab uska naam ),usko waha execute nahi kar dena hai (matlab call mat kar dena )
 
+//It usually takes three arguments (first one for iteration )(second one for index of the iteration val)(third one for the entire array)
+
+array.forEach((val,index,array)=>{
+    console.log(val,index,array)
+})
 
 
