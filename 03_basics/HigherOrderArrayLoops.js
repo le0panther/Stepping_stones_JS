@@ -50,11 +50,17 @@ for (const key in obj1) {
 //The major difference between forin and forof is that the forin iterates through keys and the forof iterates through the values 
 
 
-//for Each 
+//for Each /Higher Order Funtion
 
-//for each is a smart funtion , it takes a callback funtion(a funtion with no name) as a argument and takes all the values form the array to which it is attached to and bring them inside the funtion does it's job and then shift to next value
+//for each is a smart funtion , it takes a callback funtion(A callback function is simply a function that you pass as an argument into another function, to be executed (called back) later.) as a argument and takes all the values form the array to which it is attached to and bring them inside the funtion does it's job and then shift to next value
 
-//It works 
+//It works better with array and if what to use with object then convert it to one 
+// const user = { name: 'Alice', age: 25, role: 'Admin' };
+
+// Object.keys(user).forEach(key => {
+//   console.log(key); 
+// });
+
 
 // array.forEach(function (num){
 //     console.log(num*0)
