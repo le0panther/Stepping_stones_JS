@@ -52,6 +52,10 @@ for (const key in obj1) {
 
 //for Each 
 
+//for each is a smart funtion , it takes a callback funtion(a funtion with no name) as a argument and takes all the values form the array to which it is attached to and bring them inside the funtion does it's job and then shift to next value
+
+//It works 
+
 array.forEach(function (num){
     console.log(num*0)
 })
