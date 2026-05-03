@@ -79,7 +79,7 @@ for (const key in obj1) {
 //It usually takes three arguments (first one for iteration )(second one for index of the iteration val)(third one for the entire array)
 
 array.forEach((val,index,array)=>{
-    console.log(val,index,array)
+   // console.log(val,index,array)
 })
 
 //it will give us output as val , index then the entire array too 
@@ -88,9 +88,16 @@ array.forEach((val,index,array)=>{
 //also it is widely used in the case where their is object inside of an array as its elements 
 const NewArray=[
     {name:"Abhishek Pant"},
-    {Age:20},
-    {Gender:"Male"}
+    {name:"Leo Panther"},
+    {name:"Axel Blazze"}
 ]
+
+NewArray.forEach((element)=>{
+    console.log(element.name)
+})
+
+//Simple and Easy way to do complex work 
+
 
 
 
