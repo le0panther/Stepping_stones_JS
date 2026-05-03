@@ -82,4 +82,16 @@ array.forEach((val,index,array)=>{
     console.log(val,index,array)
 })
 
+//it will give us output as val , index then the entire array too 
+
+
+//also it is widely used in the case where their is object inside of an array as its elements 
+const NewArray=[
+    {name:"Abhishek Pant"},
+    {Age:20},
+    {Gender:"Male"}
+]
+
+
+
 
