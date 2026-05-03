@@ -49,3 +49,11 @@ for (const key in obj1) {
 
 //The major difference between forin and forof is that the forin iterates through keys and the forof iterates through the values 
 
+
+//for Each 
+
+array.forEach(function (num){
+    console.log(num*0)
+})
+
+
