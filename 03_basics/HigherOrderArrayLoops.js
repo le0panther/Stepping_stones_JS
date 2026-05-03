@@ -56,8 +56,14 @@ for (const key in obj1) {
 
 //It works 
 
-array.forEach(function (num){
+// array.forEach(function (num){
+//     console.log(num*0)
+// })
+
+array.forEach((num)=>{
     console.log(num*0)
 })
+
+
 
 
