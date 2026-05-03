@@ -60,10 +60,15 @@ for (const key in obj1) {
 //     console.log(num*0)
 // })
 
-array.forEach((num)=>{
-    console.log(num*0)
-})
+// array.forEach((num)=>{          //with the help of arrow funtion 
+//     console.log(num*0)
+// })
 
+function newMethod(val){
+    console.log(val*0)
+}
+
+array.forEach(newMethod)        //Another Way
 
 
 
