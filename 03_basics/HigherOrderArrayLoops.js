@@ -47,3 +47,5 @@ for (const key in obj1) {
 //forin   is quite like for of but it is made for iterating through objects 
 
 
+//The major difference between forin and forof is that the forin iterates through keys and the forof iterates through the values 
+
