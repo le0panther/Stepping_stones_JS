@@ -68,7 +68,7 @@ function newMethod(val){
     console.log(val*0)
 }
 
-array.forEach(newMethod)        //Another Way
+array.forEach(newMethod)        //Another Way  , funtion ka reference dena hai ( matlab uska naam ),usko waha execute nahi kar dena hai (matlab call mat kar dena )
 
 
 
