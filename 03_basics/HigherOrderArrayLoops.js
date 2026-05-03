@@ -3,7 +3,7 @@
 let array=[1,2,3,6,5,4,5,6,5,4]
 
 for (const arr of array) {
-    console.log(arr)
+   // console.log(arr)
     
 }
 
@@ -12,7 +12,7 @@ for (const str of string) {
     if(str===" "){
         continue
     }
-    console.log(str)
+  //  console.log(str)
     
 }
 
@@ -32,5 +32,18 @@ for (const str of string) {
 
 //for in 
 
+
+const obj1={
+    key1:"value1",
+    key2:"value2",
+    key3:"value3",
+    key4:"value4"
+}
+
+for (const key in obj1) {
+    console.log(`${key} : ${obj1[key]}`)
+      
+}
 //forin   is quite like for of but it is made for iterating through objects 
+
 
