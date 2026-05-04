@@ -95,6 +95,8 @@ some_variable=array.map( (item)=>{
 
 //reduce is the Juicer: It squeezes an entire array of items down into a single value (like a total number, a single string, or one object).(sum kar ke value return ya print kar deta hai )
 
+//do argument accept karta hai accumalator and current value , inintialy accumulator ko value nahi pata hota hai toh vao scope ke bad comma dal ke likhte hai , fir accumulator or current value ka sum wapis se accumulator may cahla jata hai 
+
 some_variable=array.reduce( (arr,curr)=>{
     return arr+curr
 },0)
