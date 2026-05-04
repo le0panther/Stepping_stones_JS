@@ -89,3 +89,6 @@ some_variable=array.map( (item)=>{
 })
 
 console.log(some_variable)
+
+
+//Reduce 
