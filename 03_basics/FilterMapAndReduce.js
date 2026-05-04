@@ -88,7 +88,15 @@ some_variable=array.map( (item)=>{
     return item*10
 })
 
-console.log(some_variable)
+
 
 
 //Reduce 
+
+//reduce is the Juicer: It squeezes an entire array of items down into a single value (like a total number, a single string, or one object).(sum kar ke value return ya print kar deta hai )
+
+some_variable=array.reduce( (arr,curr)=>{
+    return arr+curr
+},0)
+
+console.log(some_variable)
