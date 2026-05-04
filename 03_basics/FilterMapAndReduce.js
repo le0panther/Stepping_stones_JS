@@ -58,4 +58,34 @@ const books = [
     return item.publish > 2000
   })
 
-  console.log(vari)
+  //console.log(vari)
+
+
+
+//MAP
+//You should use map exclusively when your goal is to transform data from one form into another, and you need to use the resulting new array.
+//When a developer sees forEach, they instantly know: "This code is performing an action (like updating the UI or calling an API)."
+
+//When a developer sees map, they instantly know: "This code is transforming data into a new array."
+  
+
+let  some_variable=array.map( (item)=>{
+    return item                             
+    //jab hum isme condition check karte  tab ye boolean output deta hai , or agar operation perform karte hai tab normal behaviour
+})
+
+//console.log(some_variable)
+
+//Chaining 
+
+//In Chaining we chain together different methods like .map().map(),.filter().map , etc 
+//The input/argument to the next mehtod i the output or the return value of the first 
+
+
+some_variable=array.map( (item)=>{
+    return item+1
+}).map( (item)=>{
+    return item*10
+})
+
+console.log(some_variable)
