@@ -1,0 +1,20 @@
+-----------------------------------------------PART 1------------------------------------------------
+
+All the things which i need to know before jumping in the DOM
+
+document.querryselector()       //this is widely used in order to select any element in the webpage 
+
+    . for  classes 
+    # for  id's
+
+
+Difference between HTML collection and NODE list            //ye AI se padh lena 
+
+Difference between innerText , innerHtml and textContent            // ye bhi AI se padh lena 
+
+or phir values ko lena or unko manupulate karne ka practise kar lena 
+
+---------------------------------------------PART 2----------------------------------------------------
+
+
+
