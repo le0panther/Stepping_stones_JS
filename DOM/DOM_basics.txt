@@ -17,4 +17,17 @@ or phir values ko lena or unko manupulate karne ka practise kar lena
 ---------------------------------------------PART 2----------------------------------------------------
 
 
+1).parent,.children
+2)nextElementsibling,.parentElement
+3)firstElementChild,lastElementChild
+
+//form the above attributes or method we will learn how to target parent from child and vice-versa , similarly for the sibling elements 
+
+4).childNodes           
+
+//Its usually helps us to understand the tree-structure of the element selected 
+
+//Aab ek empty page lena or usme itna items dalna ki vo  html.html type lage 
+(creating elements in DOM)
+
 
