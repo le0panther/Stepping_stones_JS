@@ -1,4 +1,4 @@
------------------------------------------------PART 1------------------------------------------------
+-----------------------------------------------PART 1----------------------------------------------
 
 All the things which i need to know before jumping in the DOM
 
@@ -14,7 +14,7 @@ Difference between innerText , innerHtml and textContent            // ye bhi AI
 
 or phir values ko lena or unko manupulate karne ka practise kar lena 
 
----------------------------------------------PART 2----------------------------------------------------
+---------------------------------------------PART 2-------------------------------------------------
 
 
 1).parent,.children
@@ -29,5 +29,10 @@ or phir values ko lena or unko manupulate karne ka practise kar lena
 
 //Aab ek empty page lena or usme itna items dalna ki vo  html.html type lage 
 (creating elements in DOM)
+
+
+
+--------------------------------------------PART 3--------------------------------------------------
+
 
 
