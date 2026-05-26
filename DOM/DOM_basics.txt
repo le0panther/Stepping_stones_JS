@@ -23,7 +23,7 @@ or phir values ko lena or unko manupulate karne ka practise kar lena
 
 //form the above attributes or method we will learn how to target parent from child and vice-versa , similarly for the sibling elements 
 
-4).childNodes           
+4).childNodes ,.createTextNode  ,.appendChild        
 
 //Its usually helps us to understand the tree-structure of the element selected 
 
@@ -33,6 +33,14 @@ or phir values ko lena or unko manupulate karne ka practise kar lena
 
 
 --------------------------------------------PART 3--------------------------------------------------
+
+//Here my main task is to learn Edit and Replace/Remove with code 
+
+// The work which i did in the Part 2 , i need to do that again but this time with the help of funtions and all 
+
+//Its is better to go with appendChild then with innerHtml/text as it makes the code more optimized 
+
+//.innerHtml traverses which make the code less optimized 
 
 
 
