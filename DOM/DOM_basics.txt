@@ -1,3 +1,5 @@
+Agar kisi interview may jaega toh ye sab topics se ekdam vakif rahna hai 
+
 -----------------------------------------------PART 1----------------------------------------------
 
 All the things which i need to know before jumping in the DOM
@@ -24,18 +26,59 @@ Passed with vibrant colors
 ---------------------------------------------PART 2-------------------------------------------------
 
 
-1).parent,.children
-2)nextElementsibling,.parentElement
-3)firstElementChild,lastElementChild
+What to remember:(This all are properties not methods so no parenthesis)
+
+    //there's a way to go up to parent
+    //there's a way to go down to first/last child
+    //there's a way to go sideways to next/previous sibling
+    //every one of them has two versions — one for elements only and one for all nodes
+
+Going Up ⬆️
+
+.parentNode — parent node of any type
+.parentElement — parent only if it's an element
+
+Going Down ⬇️
+
+.firstElementChild — first child element
+.lastElementChild — last child element
+.children — all direct child elements (HTMLCollection)
+.childNodes — all child nodes including text/comments (NodeList)
+
+Going Sideways ↔️
+
+.nextElementSibling — next sibling element
+.previousElementSibling — previous sibling element
+.nextSibling — next sibling node of any type
+.previousSibling — previous sibling node of any type
 
 //form the above attributes or method we will learn how to target parent from child and vice-versa , similarly for the sibling elements 
 
-4).childNodes ,.createTextNode  ,.appendChild        
+4).childNodes ,.createTextNode  ,.appendChild   
 
-//Its usually helps us to understand the tree-structure of the element selected 
 
-//Aab ek empty page lena or usme itna items dalna ki vo  html.html type lage 
-(creating elements in DOM)
+        .childNodes
+
+        //Returns a NodeList of all direct children of a   node
+        //Includes everything — elements, text nodes, comments, whitespace
+        //It's a property, no ()
+
+        .createTextNode()
+
+        //Creates a plain text node, no HTML parsing
+        //Safer than innerHTML when dealing with user input
+        //Just creates it, doesn't add to DOM yet
+
+        .appendChild()
+
+        //Adds a node to the end of a parent element
+        //Used to actually insert the created node into the DOM
+        //Works with any node — elements, text nodes etc
+
+        //Its usually helps us to understand the tree-structure of the element selected 
+
+        //Aab ek empty page lena or usme itna items dalna ki vo  html.html type lage 
+        (creating elements in DOM)
 
 
 
