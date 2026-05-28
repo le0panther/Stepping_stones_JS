@@ -10,10 +10,17 @@ document.querryselector()       //this is widely used in order to select any ele
 
 Difference between HTML collection and NODE list            //ye AI se padh lena 
 
+    //so both acts as a array like object but one only dontains elements (div, p, h1-6) while the other one containes nodes of all the things including elements , comments , text and all
+
+
 Difference between innerText , innerHtml and textContent            // ye bhi AI se padh lena 
+    //innerHTML — returns/sets everything including HTML tags, can inject elements but risky (XSS).
+    textContent — returns/sets plain text only, includes hidden elements, fastest and safest.
+    innerText — returns only visually rendered text, skips hidden elements, slowest (triggers reflow).
 
 or phir values ko lena or unko manupulate karne ka practise kar lena 
 
+Passed with vibrant colors
 ---------------------------------------------PART 2-------------------------------------------------
 
 
