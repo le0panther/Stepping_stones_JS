@@ -83,7 +83,7 @@ Going Sideways ↔️
         //Aab ek empty page lena or usme itna items dalna ki vo  html.html type lage 
         (creating elements in DOM)
 
-
+********PASSED WITH VIBRANT COLORS***************
 
 --------------------------------------------PART 3--------------------------------------------------
 
@@ -100,4 +100,5 @@ Going Sideways ↔️
 //.innerHtml traverses which make the code less optimized 
 
 
+**************PASSED WITH VIBRANT COLORS***************
 
