@@ -16,6 +16,23 @@
     temp.style.color="white"
 
     const div=document.createElement("div")
+
+    function Adder(lang) {
+        const vari=document.createElement("li")
+        let content=document.createTextNode(`${lang}`)
+        vari.appendChild(content)
+        div.appendChild(vari)  
     
+    }
+
+    
+    Adder("Javascript")
+    Adder(9)
+    Adder("NODE")
+    console.log(div) 
+    temp.appendChild(div)
+    
+    div.children[0].replaceWith()
+
 </script>
 </html>

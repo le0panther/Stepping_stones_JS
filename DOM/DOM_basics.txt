@@ -88,7 +88,7 @@ Going Sideways ↔️
 --------------------------------------------PART 3--------------------------------------------------
 
 1).createElement(),.setAttribute(),.createTextNode(),.appendChild()
-2).replaceWith(),.outerHtml(not recommended),.remove()
+2).replaceWith(use for swapping the element itself not just the data inside ),.outerHtml(not recommended),.remove()
 
 
 //Here my main task is to learn Edit and Replace/Remove with code 
