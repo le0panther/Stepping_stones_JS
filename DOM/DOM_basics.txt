@@ -69,6 +69,9 @@ Going Sideways ↔️
         //Safer than innerHTML when dealing with user input
         //Just creates it, doesn't add to DOM yet
 
+        //Lekin agar terko text ko replace karna hai toh textcontent use kar lena wo thoda jada acha hai kyuki wo directly replace kar deta hai .
+        //iske bare me thoda AI se padh lena
+        
         .appendChild()
 
         //Adds a node to the end of a parent element
