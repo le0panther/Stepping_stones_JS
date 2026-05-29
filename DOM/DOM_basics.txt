@@ -42,7 +42,7 @@ Going Down ⬇️
 
 .firstElementChild — first child element
 .lastElementChild — last child element
-.children — all direct child elements (HTMLCollection)
+.children — all direct child elements (HTMLCollection),indexing ke through isme hum elements access kar sakte hai 
 .childNodes — all child nodes including text/comments (NodeList)
 
 Going Sideways ↔️
