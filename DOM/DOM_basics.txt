@@ -87,7 +87,7 @@ Going Sideways ↔️
 
 --------------------------------------------PART 3--------------------------------------------------
 
-1).createElement(),.setAttribute(),.createTextNode(),.appendChild()
+1)// Ye tab use karna jab aap apna dom structure create kar rahe hoge .createElement(),.setAttribute(),.createTextNode(),.appendChild(appendChild() only accepts DOM nodes, not plain strings.)
 2).replaceWith(use for swapping the element itself not just the data inside ),.outerHtml(not recommended),.remove()
 
 
