@@ -20,9 +20,98 @@
 
    <script>
     //click 
-    document.querySelector("#owl").addEventListener("click",()=>{
-            alert("Owl had been clicked ")
+
+    // document.querySelector("#owl").addEventListener("click",(e)=>{
+    //        // alert("Owl had been clicked ")
+    //        //e is the eventObject here / pointerObject 
+    //       // console.log(e)
+    // })
+
+
+    //Thigs too learn 
+    //1)type(mouse/keyboard ke type),timestamp,defaultPrevented
+    //2)target,srcElement,toElement,currentTarget
+    //3)(more of a Interview perspective) clientX,clientY,screenY/x
+    //4)altkey,ctrlkey ,shiftkey,keyCode and etc on special keys(space, shift, del etc)
+
+
+//Event Propagation
+
+        //jo false/true at the end may likha hai vahi event Propagation hai 
+        //Event propagation is the mechanism that dictates the order in which event handlers are fired when an event occurs on a webpage.
+
+
+        //1)1. The Capturing Phase (Trickling)
+        // The event starts at the very top of the DOM tree (the Window and Document) and trickles down through the ancestors until it reaches the element you interacted with.
+
+        // Analogy: An executive passes a memo down through managers until it reaches the specific employee.
+
+        // Note: By default, most event listeners ignore this phase unless you explicitly tell them to listen for it.
+        //         console.log(e)
+
+
+        // 2. The Target Phase
+
+        // The event arrives at the exact element you interacted with (e.g., the specific button you clicked). The event handlers registered directly on this element are fired.
+
+        // 3. The Bubbling Phase
+
+        // This is the most common and important phase. After hitting the target, the event bubbles up from the target element back to the top of the DOM tree, triggering handlers on its parent elements along the way.
+
+        // Analogy: A bubble rising from the bottom of a fish tank to the surface.
+
+        // Default Behavior: Almost all standard event listeners you write (element.addEventListener('click', ... )) fire during this bubbling phase.
+
+        // That true or false value is the third argument you can pass to the addEventListener() method. It acts like a switch that tells the browser, "Hey, should this function run during the Capturing Phase or the Bubbling Phase?"
+
+        // By default, if you don't type anything there, it defaults to false.
+
+        // false (Default: Bubbling Phase)
+
+        // When you set it to false (or leave it out completely), the event listener waits for the event to bubble up from the target element before firing.
+
+        // true (Capturing Phase)
+
+        // When you set it to true, you are telling the browser to intercept the event on its way down (during the capturing phase), before it even reaches the actual element that was clicked.
+
+        //eg of event propagation 
+
+        document.querySelector("#images").addEventListener("click",function(e){
+            console.log("The ul had been clicked ");
+            // When you put event.stopPropagation() on the parent and set the event listener option to true (Capturing Phase), the event is stopped on its way down. Because it is killed at the parent level, it never reaches the child at all.
+        },false);
+
+        document.querySelector("#owl").addEventListener("click",function(e){
+            console.log(" Owl had been clicked ");
+            e.stopPropagation()
+
+            //stopPropagation() ka use hum is liye karte hai taki jab child pay event ho toah bus uska event turn on ho parent ka nahi and refer the comment written in the above parent element 
+
+
+        },false);
+
+        // document.querySelector("#images").addEventListener("click",function(e){
+        //     console.log("The ul had been clicked ");
+        // },true)
+        // document.querySelector("#owl").addEventListener("click",function(e){
+        //     console.log(" Owl had been clicked ");
+        // },true)
+
+    
+    //preventDefault
+    //their is one more thing which is called preventDefault which is used in order to prevent the default behaviour of an element 
+
+    document.querySelector("#google").addEventListener("click",(e)=>{
+        e.stopPropagation()     //to stop the bubbling of it 
+        e.preventDefault()      //withour this we will be redirected to the google webiste 
+        console.log("Google clicked ")
     })
+
+    //essa code likho ki jo elemnt click ho raha hai vo remove ho jaye (remove method use karna kyuki vo naya aaya hua hai )
+
+
+    
+
 
 
    </script>
