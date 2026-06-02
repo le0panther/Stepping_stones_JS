@@ -1,8 +1,9 @@
 let setInterval_1;
 const changeColor = function () {
-  const Rand = (Math.random() * 1000000).toFixed();
+  let  Rand = (Math.random() * 1000000).toFixed();
   console.log(`Changing the color to ${Rand}`)
   document.querySelector('body').style.backgroundColor =`#${Rand}` ;
+ // Rand=null;          isko null kar ke run karana hai or sahi output lana hai  
 };
 
 document.querySelector('#start').addEventListener('click', function () {
