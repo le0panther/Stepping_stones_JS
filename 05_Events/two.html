@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Events Handling</h1>
+<button class="start" id="button">start</button>
+<button class="stop" id="stop">stop</button>
+
+    
+</body>
+
+<script>
+    //here we are going to be learning about setTimeout and setInterval
+
+    //setTimeout Syntax 
+    //setTimeout(function, delay, param1, param2, ...)
+
+    //When to use it 
+
+    //Delay an action — show a popup after a few seconds
+    // Auto-close notifications — hide an alert after 3 seconds
+    // Animations — trigger something after a delay
+    // API retrying — retry a failed request after some time
+    // Debouncing — wait until user stops typing before searching
+
+    // Key points
+
+    //   It runs only once (use setInterval if you want it to repeat)
+    //   Always store it in a variable if you need to cancel it with clearTimeout
+    //   Delay of 0 doesn't mean instant — it still waits for the current code to finish
+
+    // const start= function(){
+    //      document.querySelector("h1").textContent="Event Started"
+    //  } 
+
+
+    // let setTimeout_1;
+    // document.querySelector(".start").addEventListener("click",()=>{
+    // setTimeout_1=setTimeout(start,3000)
+    // console.log("The event have started happening")
+    // });
+
+    // document.querySelector(".stop").addEventListener("click",()=>{
+    //     clearTimeout(setTimeout_1)
+    //     console.log("The event have been stopped from happening")
+    // })
+   
+    
+    const start= function(){
+         document.querySelector("h1").textContent="Event Started"
+         console.log("The event have started happening",Date.now())
+     } 
+
+
+    let setInterval_1;
+    document.querySelector(".start").addEventListener("click",()=>{
+    setInterval_1=setInterval(start,2000)
+    
+    });
+
+    document.querySelector(".stop").addEventListener("click",()=>{
+        clearInterval(setInterval_1)
+        document.querySelector("h1").innerHTML="Event Stopped"
+        console.log("The event have been stopped from happening")
+    })
+
+
+    //syntax of setInterval is as same as setTimeout
+
+        // When to use it
+
+        // Clocks/timers — update time every second
+        // Auto-saving — save user data every few seconds
+        // Polling — check server for new data every X seconds
+        // Slideshows — change image every 3 seconds
+        // Countdowns — decrease a counter every second
+
+
+        // Key points
+
+        // It runs repeatedly unlike setTimeout which runs only once
+        // Always store it in a variable if you need to cancel it with clearInterval
+        // Always clear it when done — forgetting to stop it can cause memory leaks
+
+</script>
+</html>
