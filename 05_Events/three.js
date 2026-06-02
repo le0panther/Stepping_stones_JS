@@ -14,3 +14,7 @@ document.querySelector('#stop').addEventListener('click', function () {
   clearInterval(setInterval_1);
   console.log("The Color had been choosen ")
 });
+
+//2 project with Async ka jo second code hai usko solve karne ke liye humlog ko events padhna padhega (jo jo bola gaya tha ) usko padh ke phir second project banna lena 
+
+//or vo video pura complete nahi dekha hu due to the above reason 
